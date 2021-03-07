@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	  font-family: 'Poppins', sans-serif;
+	  background-image: linear-gradient(120deg, white, orange);
+}
+.head{
+	min-height: 20vh;
+	margin-left: 38.5%;
+	margin-top: 2%;
+}
+.formlist .inbt {
+	display: flex;
+	margin-left: 40%;
+}
+.formlist .inbt .todobtn{
+	color:  orange;
+	background-color: white;
+	border: none;
+	margin-left: 4px;
+}
+.formlist .inbt input{
+	border: none;
+	width: 25%;
+	padding: 2px;
+	border-radius: 5px;	
+	margin-left: 10px;
+	height: 25px; 
+}
+.todo{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-top: 1%;
+}
+.todoitem{
+	width: 15%;
+	color: black;
+	background-color: white;
+	list-style: none;	
+	padding: 2px;
+	border: none;
+	border-radius: 5px;
+}
+.completebtn {
+	background: orange;
+	color: white;
+	padding: 2px;
+	width: 3%;
+}
+.trashbtn{
+	background: green;
+	color: white;
+	padding: 2px;
+	width: 3%;	
+	cursor: pointer;
+}
+.fa-check, .fa-trash{
+	pointer-events: none;
+}
+.completed{
+	opacity: .6;
+	
+}

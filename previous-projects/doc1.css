@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: none;
+}
+body{
+	font-family:  'poppins' , "sans-seriff";
+}
+header{
+	min-height: 20vh;
+	/*background-color: coral;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	min-height: 80vh;
+	/*ackground-color: lightblue;*/
+}
+.forminput{
+	margin-left: 5em;
+	margin-right: 5em;
+	box-shadow: 20px 20px 20px rgba(0,0,0,.1);
+}
+.forminput>.firstform{
+	/*background-color: lightpink;*/
+	min-height: 8vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*box-shadow: 0 20px 20px rgba(0,0,0,.5);*/
+}
+.container>.firstform>.expense{
+	box-shadow: none;
+}
+.secondform{
+	display: flex;
+/*	background-color: blue;*/
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	min-height: 8vh;
+}
+.secondform>.date{
+	padding: 2rem;
+	/*background-color:green;*/
+	/*margin-left: 2rem;*/
+}
+.secondform>.deduction{
+	padding: 2rem;
+}
+.classtables{
+	/*background-color: green;*/
+	margin-top: 2em;
+x	margin-right: 2em;
+}
+table{
+	/*background-color: yellow;*/
+	width: 100%;
+}
+.row0,.row1,.row2,.row3{
+		display: flex;
+	color: green;
+	justify-content:  center;
+	align-items: center;
+	padding: .5em;
+	
+}
+.trash{
+	/*background: coral;*/
+	display: flex;
+	color: green;
+	justify-content:  center;
+	align-items: center;
+	padding: .5em;
+
+}
+
+.fa-trash{
+	pointer-events: none;
+
+}
